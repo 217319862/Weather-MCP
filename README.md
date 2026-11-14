@@ -34,14 +34,12 @@ MCP_Weather/
 ## התקנה
 
 ```bash
-git clone https://github.com/<שם-המשתמש>/weather-mcp.git
+git clone https://github.com/217319862/weather-mcp.git
 cd weather-mcp
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
-(החליפי את `<שם-המשתמש>` בשם המשתמש שלך ב-GitHub.)
 
 > הערה: הקוד כתוב עבור `mcp` גרסה 1.x (`FastMCP`). בגרסה 2.x השם שונה ל-`MCPServer`, ולכן מצמצמים ל-`<2`.
 
